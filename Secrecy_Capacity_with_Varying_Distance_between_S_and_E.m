@@ -55,6 +55,34 @@ Cap_A=cap_S1_A+cap_S2_A;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+dlmwrite('OP1.txt', OP1,'delimiter', '\t', 'precision', 6);
+dlmwrite('OP2.txt', OP2,'delimiter', '\t', 'precision', 6);
+dlmwrite('OP1E.txt', OP1E,'delimiter', '\t', 'precision', 6);
+dlmwrite('OP2E.txt', OP2E,'delimiter', '\t', 'precision', 6);
+dlmwrite('OP.txt', OP,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_1.txt', cap_1,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_2.txt', cap_2,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_1E.txt', cap_1E,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_2E.txt', cap_2E,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_S1.txt', cap_S1,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_S2.txt', cap_S2,'delimiter', '\t', 'precision', 6);
+dlmwrite('Cap.txt', Cap,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_NE.txt', Cap_NE,'delimiter', '\t', 'precision', 6);
+
+
+dlmwrite('OP1_A.txt', OP1_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('OP2_A.txt', OP2_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('OP1E_A.txt', OP1E_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('OP2E_A.txt', OP2E_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('OP_A.txt', OP_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_1_A.txt', cap_1_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_2_A.txt', cap_2_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_1E_A.txt', cap_1E_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_2E_A.txt', cap_2E_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_S1_A.txt', cap_S1_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_S2_A.txt', cap_S2_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_A.txt', Cap_A,'delimiter', '\t', 'precision', 6);
+
 figure(4),
 plot(d4,Cap,'-b*')
 hold on
