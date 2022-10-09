@@ -52,6 +52,24 @@ alpha2=0.8;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+dlmwrite('OP1.txt', OP1,'delimiter', '\t', 'precision', 6);
+dlmwrite('OP2.txt', OP2,'delimiter', '\t', 'precision', 6);
+dlmwrite('OP1E.txt', OP1E,'delimiter', '\t', 'precision', 6);
+dlmwrite('OP2E.txt', OP2E,'delimiter', '\t', 'precision', 6);
+dlmwrite('OP.txt', OP,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_1.txt', cap_1,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_2.txt', cap_2,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_1E.txt', cap_1E,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_2E.txt', cap_2E,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_S1.txt', cap_S1,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_S2.txt', cap_S2,'delimiter', '\t', 'precision', 6);
+dlmwrite('Cap.txt', Cap,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_NE.txt', Cap_NE,'delimiter', '\t', 'precision', 6);
+dlmwrite('gamma1f.txt', gamma1f,'delimiter', '\t', 'precision', 6);
+dlmwrite('gamma2f.txt', gamma2f,'delimiter', '\t', 'precision', 6);
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 figure(1),
 plot(Psdb,gamma1f,'-*')
 hold on
