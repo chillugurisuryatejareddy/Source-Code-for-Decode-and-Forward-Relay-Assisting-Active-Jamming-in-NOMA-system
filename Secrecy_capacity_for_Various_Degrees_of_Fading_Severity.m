@@ -63,6 +63,20 @@ end
 Cap=cap_S1+cap_S2;% Calculating secrecy capacity of the system.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+dlmwrite('OP1_A.txt', OP1_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('OP2_A.txt', OP2_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('OP1E_A.txt', OP1E_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('OP2E_A.txt', OP2E_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('OP_A.txt', OP_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_1_A.txt', cap_1_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_2_A.txt', cap_2_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_1E_A.txt', cap_1E_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_2E_A.txt', cap_2E_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_S1_A.txt', cap_S1_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_S2_A.txt', cap_S2_A,'delimiter', '\t', 'precision', 6);
+dlmwrite('cap_A.txt', Cap_A,'delimiter', '\t', 'precision', 6);
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 figure(1),
 plot(Psdb,Cap(1,:),'-<')
