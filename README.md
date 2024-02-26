@@ -23,4 +23,4 @@
 
 Overall, this thesis presents us an exciting opportunity to explore the potential of Decode and Forward Relay Assisting Active Jamming in NOMA systems and its impact on security performance. The study's findings could have significant implications for the development of future wireless communication systems.
 
-[Click here](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1712744&dswid=-5880) to view the thesis paper.
+[Click here](https://www.diva-portal.org/smash/get/diva2:1712744/FULLTEXT02.pdf) to view the thesis paper.
