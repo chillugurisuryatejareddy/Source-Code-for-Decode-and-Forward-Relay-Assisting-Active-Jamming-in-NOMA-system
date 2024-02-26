@@ -1,4 +1,4 @@
-# Source-Code-for-Decode-and-Forward-Relay-Assisting-Active-Jamming-in-NOMA-system
+# Source-Code-for-Simulated-Decode-and-Forward-Relay-Assisting-Active-Jamming-in-NOMA-system
 
 📜 Title: Master Thesis in Electrical Engineering with Emphasis on Telecommunication Systems
 
